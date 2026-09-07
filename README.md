@@ -58,11 +58,20 @@ data-quality checks, joins, CTEs, rolling windows, ranking, portfolio-cost
 analysis, and Tableau-ready summary outputs. It uses deterministic demo data
 and does not contain private market signals.
 
+## Python analysis
+
+The [`python_analysis/`](python_analysis/) section extends the SQL outputs with
+data validation, exploratory summaries, contribution-versus-risk analysis,
+chronological model comparison, and reader-ready charts. The executed
+[`notebook`](notebooks/bluexprice_python_eda.ipynb) documents the analysis from
+inputs to takeaways.
+
 ## Quick start
 
 ```bash
 python -m pip install -r requirements.txt
 python -m public_engine.scripts.run_mock_backtest --symbol DEMO
+bash scripts/run_python_analysis.sh
 pytest -q
 ```
 
@@ -81,9 +90,8 @@ interprets the results, and controls what is suitable for public disclosure.
 
 ## Roadmap
 
-1. Add a documented Python EDA and portfolio-analysis workflow.
-2. Publish sanitized Tableau-ready summary tables and a Tableau Public dashboard.
-3. Connect the final case study to the portfolio website.
+1. Publish sanitized Tableau-ready summary tables and a Tableau Public dashboard.
+2. Connect the final case study to the portfolio website.
 
 ## Limitations
 

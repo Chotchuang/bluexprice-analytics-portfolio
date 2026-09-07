@@ -1,0 +1,5 @@
+asset_id,asset_group,average_weight_pct,average_monthly_contribution_pct,average_annualized_volatility_pct,positive_contribution_months,observed_months,contribution_rank
+ASSET_A,Growth Equity,35.0,0.79,16.265,6,6,1
+ASSET_B,Quality Equity,30.0,0.4716666666666667,19.775000000000002,5,6,2
+ASSET_C,Defensive Equity,20.0,0.2916666666666667,21.671666666666667,5,6,3
+ASSET_D,Diversifier,15.0,0.25333333333333335,22.56,6,6,4

@@ -1,0 +1,5 @@
+metric,value,unit,interpretation
+daily_demo_rows,720.0,rows,Public synthetic asset observations
+quality_checks_failed,0.0,checks,Zero is required before analysis
+average_monthly_cost_drag,1.163,percentage points,Demo difference between gross and net return sums
+best_demo_model_f1,0.99,score,Random forest on deterministic synthetic data; not expected to generalize

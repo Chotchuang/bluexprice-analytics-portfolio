@@ -1,0 +1,5 @@
+feature,importance
+price_vs_rolling_lag_1,0.4891895512740233
+return_mean_5,0.22943215463636643
+return_lag_1,0.22835018568328083
+volume_change_lag_1,0.05302810840632947

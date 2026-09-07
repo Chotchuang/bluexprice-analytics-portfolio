@@ -1,6 +1,33 @@
 .headers on
 .mode csv
 
+.once data/sql_asset_daily.csv
+SELECT
+    r.observation_date,
+    r.asset_id,
+    a.asset_group,
+    a.risk_band,
+    r.close_price,
+    r.volume,
+    r.daily_return,
+    r.rolling_20_observation_price,
+    ROUND(
+        ((r.close_price / r.rolling_20_observation_price) - 1) * 100,
+        6
+    ) AS price_vs_rolling_average_pct,
+    w.target_weight,
+    c.slippage_bps,
+    c.transaction_fee
+FROM asset_returns AS r
+JOIN assets AS a ON r.asset_id = a.asset_id
+JOIN portfolio_weights AS w
+  ON r.observation_date = w.observation_date
+ AND r.asset_id = w.asset_id
+JOIN execution_costs AS c
+  ON r.observation_date = c.observation_date
+ AND r.asset_id = c.asset_id
+ORDER BY r.observation_date, r.asset_id;
+
 .once data/sql_quality_checks.csv
 .read sql/03_data_quality.sql
 
@@ -77,4 +104,3 @@ SELECT
     ) AS annualized_volatility_pct
 FROM monthly_asset
 ORDER BY month, contribution_to_return_pct DESC;
-
