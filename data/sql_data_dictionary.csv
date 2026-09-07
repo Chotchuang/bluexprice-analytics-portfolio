@@ -1,0 +1,20 @@
+dataset,field,data_type,definition
+sql_quality_checks,check_name,text,Validation rule applied before analysis
+sql_quality_checks,failed_rows,integer,Number of records or dates that failed the rule
+sql_quality_checks,status,text,PASS when failed_rows equals zero otherwise REVIEW
+sql_latest_asset_ranking,asset_id,text,Generic public-safe asset identifier
+sql_latest_asset_ranking,asset_group,text,Illustrative portfolio category
+sql_latest_asset_ranking,risk_band,text,Illustrative Low Medium or High grouping
+sql_latest_asset_ranking,close_price,decimal,Latest synthetic closing price
+sql_latest_asset_ranking,price_vs_rolling_average_pct,decimal,Percentage difference between latest price and 20-observation average
+sql_latest_asset_ranking,market_price_rank,integer,Descending rank by price versus rolling average
+sql_portfolio_monthly,month,text,Calendar month in YYYY-MM format
+sql_portfolio_monthly,observation_days,integer,Number of return observations in the month
+sql_portfolio_monthly,gross_return_sum_pct,decimal,Sum of weighted daily demo returns before costs
+sql_portfolio_monthly,net_return_sum_pct,decimal,Sum of weighted daily demo returns after estimated costs
+sql_portfolio_monthly,transaction_fees,decimal,Total simulated fixed fees for the month
+sql_portfolio_monthly,average_weighted_slippage_bps,decimal,Average allocation-weighted simulated slippage
+sql_asset_monthly,average_weight_pct,decimal,Average target portfolio allocation for the asset
+sql_asset_monthly,return_sum_pct,decimal,Sum of the asset daily demo returns for the month
+sql_asset_monthly,contribution_to_return_pct,decimal,Average weight multiplied by monthly return sum
+sql_asset_monthly,annualized_volatility_pct,decimal,Annualized standard deviation of daily demo returns

@@ -1,0 +1,5 @@
+asset_id,asset_group,risk_band,close_price,price_vs_rolling_average_pct,market_price_rank
+ASSET_C,"Defensive Equity",Low,63.53,1.51,1
+ASSET_D,Diversifier,Medium,42.89,1.17,2
+ASSET_A,"Growth Equity",High,111.85,0.02,3
+ASSET_B,"Quality Equity",Medium,85.54,-0.6,4

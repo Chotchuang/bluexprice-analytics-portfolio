@@ -51,6 +51,13 @@ Demo market data
 All current outputs use demo inputs or mock strategies. They are not evidence
 of live investment performance.
 
+## SQL analysis
+
+The [`sql/`](sql/) section shows practical analytical SQL: relational tables,
+data-quality checks, joins, CTEs, rolling windows, ranking, portfolio-cost
+analysis, and Tableau-ready summary outputs. It uses deterministic demo data
+and does not contain private market signals.
+
 ## Quick start
 
 ```bash
@@ -74,10 +81,9 @@ interprets the results, and controls what is suitable for public disclosure.
 
 ## Roadmap
 
-1. Add a compact SQL analysis showing data-quality and portfolio-summary logic.
-2. Add a documented Python EDA and portfolio-analysis workflow.
-3. Publish sanitized Tableau-ready summary tables and a Tableau Public dashboard.
-4. Connect the final case study to the portfolio website.
+1. Add a documented Python EDA and portfolio-analysis workflow.
+2. Publish sanitized Tableau-ready summary tables and a Tableau Public dashboard.
+3. Connect the final case study to the portfolio website.
 
 ## Limitations
 
@@ -85,4 +91,3 @@ interprets the results, and controls what is suitable for public disclosure.
 - Public strategies are intentionally simple mock examples.
 - Historical or simulated results do not guarantee future performance.
 - Machine-learning scores are model-evaluation evidence, not profitability proof.
-

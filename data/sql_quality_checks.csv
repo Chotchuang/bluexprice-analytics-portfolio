@@ -1,0 +1,5 @@
+check_name,failed_rows,status
+"dates with portfolio weight not equal to 1",0,PASS
+"duplicate price keys",0,PASS
+"missing or non-positive prices",0,PASS
+"positions without matching prices",0,PASS
