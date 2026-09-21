@@ -1,0 +1,13 @@
+dataset_name,period,check_name,records_checked,issue_count,issue_rate,severity,status,analyst_action,evidence_class
+synthetic_daily_internal,full_period,duplicate_date_asset_group,1044,0,0.0,Blocker,Pass,none,synthetic
+synthetic_daily_internal,full_period,missing_required_values,1044,0,0.0,Blocker,Pass,none,synthetic
+synthetic_daily_internal,full_period,non_positive_close_price,1044,0,0.0,Blocker,Pass,none,synthetic
+synthetic_daily_internal,full_period,out_of_range_weight,1044,0,0.0,Blocker,Pass,none,synthetic
+synthetic_daily_internal,full_period,weight_reconciliation,261,0,0.0,Blocker,Pass,none,synthetic
+synthetic_daily_internal,full_period,missing_business_dates,261,0,0.0,Warning,Pass,none,synthetic
+synthetic_daily_internal,full_period,unmatched_asset_group,1044,0,0.0,Blocker,Pass,none,synthetic
+synthetic_daily_internal,full_period,extreme_daily_return_review,1044,0,0.0,Warning,Pass,none,synthetic
+portfolio_performance_summary,full_period,gross_cost_net_reconciliation,12,0,0.0,Blocker,Pass,none,synthetic
+portfolio_performance_summary,full_period,freshness_coverage,1,0,0.0,Blocker,Pass,none,synthetic
+portfolio_performance_summary,full_period,duplicate_output_key,12,0,0.0,Blocker,Pass,none,synthetic
+asset_allocation_summary,full_period,duplicate_output_key,48,0,0.0,Blocker,Pass,none,synthetic

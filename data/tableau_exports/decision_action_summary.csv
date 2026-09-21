@@ -1,0 +1,701 @@
+period,asset_group,cue_family_code,cue_family_name,decision_label,intensity_band,filter_gate_result,evaluation_type,evidence_class,status,observation_count
+2025-01,Defensive,A,Short-cycle structure,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-01,Defensive,A,Short-cycle structure,Sell,1/3,pass,scenario,synthetic,complete,1
+2025-01,Defensive,A,Short-cycle structure,Warning Short,3/3,pass,scenario,synthetic,complete,1
+2025-01,Defensive,B,Fast confirmation,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-01,Defensive,B,Fast confirmation,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-01,Defensive,B,Fast confirmation,Sell,1/3,hold,scenario,synthetic,complete,1
+2025-01,Defensive,C,Consistency cross-check,Buy,3/3,hold,scenario,synthetic,complete,1
+2025-01,Defensive,C,Consistency cross-check,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-01,Defensive,C,Consistency cross-check,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-01,Defensive,D,Distance warning band,Hold,2/3,fail,scenario,synthetic,complete,1
+2025-01,Defensive,D,Distance warning band,Warning Short,1/3,pass,scenario,synthetic,complete,2
+2025-01,Defensive,E,Multi-horizon context,Buy,1/3,hold,scenario,synthetic,complete,1
+2025-01,Defensive,E,Multi-horizon context,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-01,Defensive,E,Multi-horizon context,Wait Sell,2/3,hold,scenario,synthetic,complete,1
+2025-01,Diversifier,A,Short-cycle structure,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-01,Diversifier,A,Short-cycle structure,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-01,Diversifier,A,Short-cycle structure,Warning Short,3/3,pass,scenario,synthetic,complete,1
+2025-01,Diversifier,B,Fast confirmation,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-01,Diversifier,B,Fast confirmation,Warning Long,1/3,hold,scenario,synthetic,complete,1
+2025-01,Diversifier,B,Fast confirmation,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-01,Diversifier,C,Consistency cross-check,Buy,1/3,hold,scenario,synthetic,complete,1
+2025-01,Diversifier,C,Consistency cross-check,Sell,1/3,pass,scenario,synthetic,complete,1
+2025-01,Diversifier,C,Consistency cross-check,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-01,Diversifier,D,Distance warning band,Wait Buy,3/3,pass,scenario,synthetic,complete,1
+2025-01,Diversifier,D,Distance warning band,Warning Long,2/3,hold,scenario,synthetic,complete,1
+2025-01,Diversifier,D,Distance warning band,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-01,Diversifier,E,Multi-horizon context,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-01,Diversifier,E,Multi-horizon context,Wait Buy,2/3,fail,scenario,synthetic,complete,1
+2025-01,Diversifier,E,Multi-horizon context,Warning Short,1/3,hold,scenario,synthetic,complete,1
+2025-01,Growth,A,Short-cycle structure,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-01,Growth,A,Short-cycle structure,Wait Buy,2/3,hold,scenario,synthetic,complete,1
+2025-01,Growth,A,Short-cycle structure,Wait Sell,1/3,hold,scenario,synthetic,complete,1
+2025-01,Growth,B,Fast confirmation,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-01,Growth,B,Fast confirmation,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-01,Growth,B,Fast confirmation,Warning Long,1/3,fail,scenario,synthetic,complete,1
+2025-01,Growth,C,Consistency cross-check,Hold,1/3,fail,scenario,synthetic,complete,1
+2025-01,Growth,C,Consistency cross-check,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-01,Growth,C,Consistency cross-check,Wait Buy,3/3,pass,scenario,synthetic,complete,1
+2025-01,Growth,D,Distance warning band,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-01,Growth,D,Distance warning band,Wait Sell,3/3,fail,scenario,synthetic,complete,1
+2025-01,Growth,D,Distance warning band,Warning Short,1/3,hold,scenario,synthetic,complete,1
+2025-01,Growth,E,Multi-horizon context,Hold,1/3,fail,scenario,synthetic,complete,1
+2025-01,Growth,E,Multi-horizon context,Warning Short,2/3,pass,scenario,synthetic,complete,2
+2025-01,Income,A,Short-cycle structure,Buy,2/3,hold,scenario,synthetic,complete,1
+2025-01,Income,A,Short-cycle structure,Wait Buy,2/3,hold,scenario,synthetic,complete,1
+2025-01,Income,A,Short-cycle structure,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-01,Income,B,Fast confirmation,Sell,1/3,pass,scenario,synthetic,complete,1
+2025-01,Income,B,Fast confirmation,Wait Buy,2/3,hold,scenario,synthetic,complete,1
+2025-01,Income,B,Fast confirmation,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-01,Income,C,Consistency cross-check,Sell,2/3,fail,scenario,synthetic,complete,1
+2025-01,Income,C,Consistency cross-check,Warning Long,1/3,fail,scenario,synthetic,complete,1
+2025-01,Income,C,Consistency cross-check,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-01,Income,D,Distance warning band,Buy,1/3,fail,scenario,synthetic,complete,1
+2025-01,Income,D,Distance warning band,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-01,Income,D,Distance warning band,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-01,Income,E,Multi-horizon context,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-01,Income,E,Multi-horizon context,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-01,Income,E,Multi-horizon context,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-02,Defensive,A,Short-cycle structure,Buy,3/3,pass,scenario,synthetic,complete,1
+2025-02,Defensive,A,Short-cycle structure,Hold,1/3,fail,scenario,synthetic,complete,1
+2025-02,Defensive,A,Short-cycle structure,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-02,Defensive,B,Fast confirmation,Buy,1/3,hold,scenario,synthetic,complete,1
+2025-02,Defensive,B,Fast confirmation,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-02,Defensive,B,Fast confirmation,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-02,Defensive,C,Consistency cross-check,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-02,Defensive,C,Consistency cross-check,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-02,Defensive,C,Consistency cross-check,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-02,Defensive,D,Distance warning band,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-02,Defensive,D,Distance warning band,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-02,Defensive,D,Distance warning band,Wait Buy,2/3,hold,scenario,synthetic,complete,1
+2025-02,Defensive,E,Multi-horizon context,Buy,1/3,hold,scenario,synthetic,complete,1
+2025-02,Defensive,E,Multi-horizon context,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-02,Defensive,E,Multi-horizon context,Warning Long,2/3,pass,scenario,synthetic,complete,1
+2025-02,Diversifier,A,Short-cycle structure,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-02,Diversifier,A,Short-cycle structure,Sell,1/3,pass,scenario,synthetic,complete,1
+2025-02,Diversifier,A,Short-cycle structure,Wait Sell,3/3,hold,scenario,synthetic,complete,1
+2025-02,Diversifier,B,Fast confirmation,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-02,Diversifier,B,Fast confirmation,Wait Sell,1/3,hold,scenario,synthetic,complete,1
+2025-02,Diversifier,B,Fast confirmation,Warning Short,3/3,hold,scenario,synthetic,complete,1
+2025-02,Diversifier,C,Consistency cross-check,Hold,3/3,hold,scenario,synthetic,complete,1
+2025-02,Diversifier,C,Consistency cross-check,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-02,Diversifier,C,Consistency cross-check,Warning Short,2/3,fail,scenario,synthetic,complete,1
+2025-02,Diversifier,D,Distance warning band,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-02,Diversifier,D,Distance warning band,Hold,3/3,hold,scenario,synthetic,complete,1
+2025-02,Diversifier,D,Distance warning band,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-02,Diversifier,E,Multi-horizon context,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-02,Diversifier,E,Multi-horizon context,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-02,Diversifier,E,Multi-horizon context,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-02,Growth,A,Short-cycle structure,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-02,Growth,A,Short-cycle structure,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-02,Growth,A,Short-cycle structure,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-02,Growth,B,Fast confirmation,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-02,Growth,B,Fast confirmation,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-02,Growth,B,Fast confirmation,Warning Short,2/3,hold,scenario,synthetic,complete,1
+2025-02,Growth,C,Consistency cross-check,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-02,Growth,C,Consistency cross-check,Warning Short,1/3,hold,scenario,synthetic,complete,1
+2025-02,Growth,C,Consistency cross-check,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-02,Growth,D,Distance warning band,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-02,Growth,D,Distance warning band,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-02,Growth,D,Distance warning band,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-02,Growth,E,Multi-horizon context,Sell,2/3,pass,scenario,synthetic,complete,1
+2025-02,Growth,E,Multi-horizon context,Sell,3/3,pass,scenario,synthetic,complete,1
+2025-02,Growth,E,Multi-horizon context,Wait Sell,1/3,hold,scenario,synthetic,complete,1
+2025-02,Income,A,Short-cycle structure,Sell,2/3,pass,scenario,synthetic,complete,1
+2025-02,Income,A,Short-cycle structure,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-02,Income,A,Short-cycle structure,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-02,Income,B,Fast confirmation,Wait Buy,2/3,pass,scenario,synthetic,complete,2
+2025-02,Income,B,Fast confirmation,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-02,Income,C,Consistency cross-check,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-02,Income,C,Consistency cross-check,Wait Buy,3/3,fail,scenario,synthetic,complete,1
+2025-02,Income,C,Consistency cross-check,Warning Short,2/3,hold,scenario,synthetic,complete,1
+2025-02,Income,D,Distance warning band,Buy,1/3,hold,scenario,synthetic,complete,2
+2025-02,Income,D,Distance warning band,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-02,Income,E,Multi-horizon context,Buy,3/3,pass,scenario,synthetic,complete,1
+2025-02,Income,E,Multi-horizon context,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-02,Income,E,Multi-horizon context,Wait Buy,2/3,fail,scenario,synthetic,complete,1
+2025-03,Defensive,A,Short-cycle structure,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-03,Defensive,A,Short-cycle structure,Wait Sell,1/3,fail,scenario,synthetic,complete,1
+2025-03,Defensive,A,Short-cycle structure,Wait Sell,3/3,hold,scenario,synthetic,complete,1
+2025-03,Defensive,B,Fast confirmation,Wait Buy,3/3,hold,scenario,synthetic,complete,1
+2025-03,Defensive,B,Fast confirmation,Warning Short,1/3,fail,scenario,synthetic,complete,1
+2025-03,Defensive,B,Fast confirmation,Warning Short,2/3,hold,scenario,synthetic,complete,1
+2025-03,Defensive,C,Consistency cross-check,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-03,Defensive,C,Consistency cross-check,Warning Long,2/3,hold,scenario,synthetic,complete,1
+2025-03,Defensive,C,Consistency cross-check,Warning Long,2/3,pass,scenario,synthetic,complete,1
+2025-03,Defensive,D,Distance warning band,Hold,1/3,pass,scenario,synthetic,complete,2
+2025-03,Defensive,D,Distance warning band,Warning Long,2/3,fail,scenario,synthetic,complete,1
+2025-03,Defensive,E,Multi-horizon context,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-03,Defensive,E,Multi-horizon context,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-03,Defensive,E,Multi-horizon context,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-03,Diversifier,A,Short-cycle structure,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-03,Diversifier,A,Short-cycle structure,Buy,2/3,hold,scenario,synthetic,complete,1
+2025-03,Diversifier,A,Short-cycle structure,Wait Buy,3/3,pass,scenario,synthetic,complete,1
+2025-03,Diversifier,B,Fast confirmation,Wait Buy,2/3,hold,scenario,synthetic,complete,1
+2025-03,Diversifier,B,Fast confirmation,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-03,Diversifier,B,Fast confirmation,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-03,Diversifier,C,Consistency cross-check,Wait Buy,3/3,hold,scenario,synthetic,complete,1
+2025-03,Diversifier,C,Consistency cross-check,Wait Sell,1/3,hold,scenario,synthetic,complete,1
+2025-03,Diversifier,C,Consistency cross-check,Warning Short,3/3,pass,scenario,synthetic,complete,1
+2025-03,Diversifier,D,Distance warning band,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-03,Diversifier,D,Distance warning band,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-03,Diversifier,D,Distance warning band,Warning Long,3/3,pass,scenario,synthetic,complete,1
+2025-03,Diversifier,E,Multi-horizon context,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-03,Diversifier,E,Multi-horizon context,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-03,Diversifier,E,Multi-horizon context,Warning Long,1/3,fail,scenario,synthetic,complete,1
+2025-03,Growth,A,Short-cycle structure,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-03,Growth,A,Short-cycle structure,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-03,Growth,A,Short-cycle structure,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-03,Growth,B,Fast confirmation,Sell,2/3,pass,scenario,synthetic,complete,1
+2025-03,Growth,B,Fast confirmation,Sell,3/3,hold,scenario,synthetic,complete,1
+2025-03,Growth,B,Fast confirmation,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-03,Growth,C,Consistency cross-check,Hold,2/3,pass,scenario,synthetic,complete,2
+2025-03,Growth,C,Consistency cross-check,Hold,3/3,hold,scenario,synthetic,complete,1
+2025-03,Growth,D,Distance warning band,Hold,3/3,hold,scenario,synthetic,complete,1
+2025-03,Growth,D,Distance warning band,Wait Buy,2/3,hold,scenario,synthetic,complete,1
+2025-03,Growth,D,Distance warning band,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-03,Growth,E,Multi-horizon context,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-03,Growth,E,Multi-horizon context,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-03,Growth,E,Multi-horizon context,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-03,Income,A,Short-cycle structure,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-03,Income,A,Short-cycle structure,Warning Long,2/3,pass,scenario,synthetic,complete,1
+2025-03,Income,A,Short-cycle structure,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-03,Income,B,Fast confirmation,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-03,Income,B,Fast confirmation,Warning Long,3/3,fail,scenario,synthetic,complete,1
+2025-03,Income,B,Fast confirmation,Warning Short,1/3,hold,scenario,synthetic,complete,1
+2025-03,Income,C,Consistency cross-check,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-03,Income,C,Consistency cross-check,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-03,Income,C,Consistency cross-check,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-03,Income,D,Distance warning band,Sell,2/3,hold,scenario,synthetic,complete,1
+2025-03,Income,D,Distance warning band,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-03,Income,D,Distance warning band,Warning Long,2/3,pass,scenario,synthetic,complete,1
+2025-03,Income,E,Multi-horizon context,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-03,Income,E,Multi-horizon context,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-03,Income,E,Multi-horizon context,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-04,Defensive,A,Short-cycle structure,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-04,Defensive,A,Short-cycle structure,Sell,1/3,hold,scenario,synthetic,complete,1
+2025-04,Defensive,A,Short-cycle structure,Warning Long,1/3,fail,scenario,synthetic,complete,1
+2025-04,Defensive,B,Fast confirmation,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-04,Defensive,B,Fast confirmation,Hold,1/3,pass,scenario,synthetic,complete,2
+2025-04,Defensive,C,Consistency cross-check,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-04,Defensive,C,Consistency cross-check,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-04,Defensive,C,Consistency cross-check,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-04,Defensive,D,Distance warning band,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-04,Defensive,D,Distance warning band,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-04,Defensive,D,Distance warning band,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-04,Defensive,E,Multi-horizon context,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-04,Defensive,E,Multi-horizon context,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-04,Defensive,E,Multi-horizon context,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-04,Diversifier,A,Short-cycle structure,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-04,Diversifier,A,Short-cycle structure,Warning Long,1/3,fail,scenario,synthetic,complete,1
+2025-04,Diversifier,A,Short-cycle structure,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-04,Diversifier,B,Fast confirmation,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-04,Diversifier,B,Fast confirmation,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-04,Diversifier,B,Fast confirmation,Warning Short,1/3,hold,scenario,synthetic,complete,1
+2025-04,Diversifier,C,Consistency cross-check,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-04,Diversifier,C,Consistency cross-check,Wait Buy,3/3,pass,scenario,synthetic,complete,1
+2025-04,Diversifier,C,Consistency cross-check,Warning Short,2/3,hold,scenario,synthetic,complete,1
+2025-04,Diversifier,D,Distance warning band,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-04,Diversifier,D,Distance warning band,Sell,2/3,hold,scenario,synthetic,complete,1
+2025-04,Diversifier,D,Distance warning band,Warning Long,1/3,fail,scenario,synthetic,complete,1
+2025-04,Diversifier,E,Multi-horizon context,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-04,Diversifier,E,Multi-horizon context,Wait Buy,1/3,fail,scenario,synthetic,complete,1
+2025-04,Diversifier,E,Multi-horizon context,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-04,Growth,A,Short-cycle structure,Sell,2/3,pass,scenario,synthetic,complete,1
+2025-04,Growth,A,Short-cycle structure,Wait Sell,2/3,hold,scenario,synthetic,complete,1
+2025-04,Growth,A,Short-cycle structure,Warning Short,3/3,pass,scenario,synthetic,complete,1
+2025-04,Growth,B,Fast confirmation,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-04,Growth,B,Fast confirmation,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-04,Growth,B,Fast confirmation,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-04,Growth,C,Consistency cross-check,Buy,2/3,hold,scenario,synthetic,complete,1
+2025-04,Growth,C,Consistency cross-check,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-04,Growth,C,Consistency cross-check,Wait Buy,2/3,hold,scenario,synthetic,complete,1
+2025-04,Growth,D,Distance warning band,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-04,Growth,D,Distance warning band,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-04,Growth,D,Distance warning band,Wait Buy,3/3,pass,scenario,synthetic,complete,1
+2025-04,Growth,E,Multi-horizon context,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-04,Growth,E,Multi-horizon context,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-04,Growth,E,Multi-horizon context,Warning Long,3/3,fail,scenario,synthetic,complete,1
+2025-04,Income,A,Short-cycle structure,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-04,Income,A,Short-cycle structure,Wait Sell,1/3,fail,scenario,synthetic,complete,1
+2025-04,Income,A,Short-cycle structure,Warning Short,2/3,hold,scenario,synthetic,complete,1
+2025-04,Income,B,Fast confirmation,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-04,Income,B,Fast confirmation,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-04,Income,B,Fast confirmation,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-04,Income,C,Consistency cross-check,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-04,Income,C,Consistency cross-check,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-04,Income,C,Consistency cross-check,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-04,Income,D,Distance warning band,Wait Buy,1/3,fail,scenario,synthetic,complete,1
+2025-04,Income,D,Distance warning band,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-04,Income,D,Distance warning band,Wait Sell,1/3,hold,scenario,synthetic,complete,1
+2025-04,Income,E,Multi-horizon context,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-04,Income,E,Multi-horizon context,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-04,Income,E,Multi-horizon context,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-05,Defensive,A,Short-cycle structure,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-05,Defensive,A,Short-cycle structure,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-05,Defensive,A,Short-cycle structure,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-05,Defensive,B,Fast confirmation,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-05,Defensive,B,Fast confirmation,Wait Buy,2/3,hold,scenario,synthetic,complete,1
+2025-05,Defensive,B,Fast confirmation,Wait Buy,3/3,fail,scenario,synthetic,complete,1
+2025-05,Defensive,C,Consistency cross-check,Wait Buy,2/3,hold,scenario,synthetic,complete,1
+2025-05,Defensive,C,Consistency cross-check,Wait Buy,3/3,hold,scenario,synthetic,complete,1
+2025-05,Defensive,C,Consistency cross-check,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-05,Defensive,D,Distance warning band,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-05,Defensive,D,Distance warning band,Wait Buy,3/3,hold,scenario,synthetic,complete,1
+2025-05,Defensive,D,Distance warning band,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-05,Defensive,E,Multi-horizon context,Buy,1/3,hold,scenario,synthetic,complete,2
+2025-05,Defensive,E,Multi-horizon context,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-05,Diversifier,A,Short-cycle structure,Sell,3/3,pass,scenario,synthetic,complete,1
+2025-05,Diversifier,A,Short-cycle structure,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-05,Diversifier,A,Short-cycle structure,Warning Short,1/3,hold,scenario,synthetic,complete,1
+2025-05,Diversifier,B,Fast confirmation,Hold,3/3,hold,scenario,synthetic,complete,1
+2025-05,Diversifier,B,Fast confirmation,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-05,Diversifier,B,Fast confirmation,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-05,Diversifier,C,Consistency cross-check,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-05,Diversifier,C,Consistency cross-check,Wait Buy,3/3,pass,scenario,synthetic,complete,1
+2025-05,Diversifier,C,Consistency cross-check,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-05,Diversifier,D,Distance warning band,Sell,2/3,hold,scenario,synthetic,complete,1
+2025-05,Diversifier,D,Distance warning band,Warning Short,1/3,hold,scenario,synthetic,complete,1
+2025-05,Diversifier,D,Distance warning band,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-05,Diversifier,E,Multi-horizon context,Wait Buy,3/3,hold,scenario,synthetic,complete,1
+2025-05,Diversifier,E,Multi-horizon context,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-05,Diversifier,E,Multi-horizon context,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-05,Growth,A,Short-cycle structure,Hold,1/3,pass,scenario,synthetic,complete,2
+2025-05,Growth,A,Short-cycle structure,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-05,Growth,B,Fast confirmation,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-05,Growth,B,Fast confirmation,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-05,Growth,B,Fast confirmation,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-05,Growth,C,Consistency cross-check,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-05,Growth,C,Consistency cross-check,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-05,Growth,C,Consistency cross-check,Warning Short,3/3,fail,scenario,synthetic,complete,1
+2025-05,Growth,D,Distance warning band,Sell,2/3,hold,scenario,synthetic,complete,1
+2025-05,Growth,D,Distance warning band,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-05,Growth,D,Distance warning band,Warning Long,2/3,pass,scenario,synthetic,complete,1
+2025-05,Growth,E,Multi-horizon context,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-05,Growth,E,Multi-horizon context,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-05,Growth,E,Multi-horizon context,Warning Long,1/3,hold,scenario,synthetic,complete,1
+2025-05,Income,A,Short-cycle structure,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-05,Income,A,Short-cycle structure,Buy,2/3,hold,scenario,synthetic,complete,1
+2025-05,Income,A,Short-cycle structure,Buy,3/3,pass,scenario,synthetic,complete,1
+2025-05,Income,B,Fast confirmation,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-05,Income,B,Fast confirmation,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-05,Income,B,Fast confirmation,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-05,Income,C,Consistency cross-check,Buy,3/3,fail,scenario,synthetic,complete,1
+2025-05,Income,C,Consistency cross-check,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-05,Income,C,Consistency cross-check,Warning Long,3/3,hold,scenario,synthetic,complete,1
+2025-05,Income,D,Distance warning band,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-05,Income,D,Distance warning band,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-05,Income,D,Distance warning band,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-05,Income,E,Multi-horizon context,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-05,Income,E,Multi-horizon context,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-05,Income,E,Multi-horizon context,Wait Sell,2/3,hold,scenario,synthetic,complete,1
+2025-06,Defensive,A,Short-cycle structure,Buy,1/3,fail,scenario,synthetic,complete,1
+2025-06,Defensive,A,Short-cycle structure,Buy,1/3,hold,scenario,synthetic,complete,1
+2025-06,Defensive,A,Short-cycle structure,Sell,3/3,pass,scenario,synthetic,complete,1
+2025-06,Defensive,B,Fast confirmation,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-06,Defensive,B,Fast confirmation,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-06,Defensive,B,Fast confirmation,Wait Buy,1/3,fail,scenario,synthetic,complete,1
+2025-06,Defensive,C,Consistency cross-check,Sell,2/3,hold,scenario,synthetic,complete,1
+2025-06,Defensive,C,Consistency cross-check,Wait Sell,1/3,hold,scenario,synthetic,complete,1
+2025-06,Defensive,C,Consistency cross-check,Warning Short,3/3,pass,scenario,synthetic,complete,1
+2025-06,Defensive,D,Distance warning band,Wait Buy,3/3,pass,scenario,synthetic,complete,1
+2025-06,Defensive,D,Distance warning band,Wait Sell,2/3,fail,scenario,synthetic,complete,1
+2025-06,Defensive,D,Distance warning band,Warning Long,2/3,hold,scenario,synthetic,complete,1
+2025-06,Defensive,E,Multi-horizon context,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-06,Defensive,E,Multi-horizon context,Wait Buy,1/3,fail,scenario,synthetic,complete,1
+2025-06,Defensive,E,Multi-horizon context,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-06,Diversifier,A,Short-cycle structure,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-06,Diversifier,A,Short-cycle structure,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-06,Diversifier,A,Short-cycle structure,Warning Short,2/3,fail,scenario,synthetic,complete,1
+2025-06,Diversifier,B,Fast confirmation,Sell,1/3,pass,scenario,synthetic,complete,1
+2025-06,Diversifier,B,Fast confirmation,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-06,Diversifier,B,Fast confirmation,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-06,Diversifier,C,Consistency cross-check,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-06,Diversifier,C,Consistency cross-check,Warning Long,3/3,pass,scenario,synthetic,complete,2
+2025-06,Diversifier,D,Distance warning band,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-06,Diversifier,D,Distance warning band,Wait Sell,1/3,hold,scenario,synthetic,complete,1
+2025-06,Diversifier,D,Distance warning band,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-06,Diversifier,E,Multi-horizon context,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-06,Diversifier,E,Multi-horizon context,Warning Short,1/3,pass,scenario,synthetic,complete,2
+2025-06,Growth,A,Short-cycle structure,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-06,Growth,A,Short-cycle structure,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-06,Growth,A,Short-cycle structure,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-06,Growth,B,Fast confirmation,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-06,Growth,B,Fast confirmation,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-06,Growth,B,Fast confirmation,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-06,Growth,C,Consistency cross-check,Wait Buy,2/3,fail,scenario,synthetic,complete,1
+2025-06,Growth,C,Consistency cross-check,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-06,Growth,C,Consistency cross-check,Warning Short,1/3,hold,scenario,synthetic,complete,1
+2025-06,Growth,D,Distance warning band,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-06,Growth,D,Distance warning band,Wait Buy,1/3,fail,scenario,synthetic,complete,1
+2025-06,Growth,D,Distance warning band,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-06,Growth,E,Multi-horizon context,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-06,Growth,E,Multi-horizon context,Wait Buy,2/3,hold,scenario,synthetic,complete,1
+2025-06,Growth,E,Multi-horizon context,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-06,Income,A,Short-cycle structure,Hold,3/3,fail,scenario,synthetic,complete,1
+2025-06,Income,A,Short-cycle structure,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-06,Income,A,Short-cycle structure,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-06,Income,B,Fast confirmation,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-06,Income,B,Fast confirmation,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-06,Income,B,Fast confirmation,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-06,Income,C,Consistency cross-check,Buy,1/3,fail,scenario,synthetic,complete,1
+2025-06,Income,C,Consistency cross-check,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-06,Income,C,Consistency cross-check,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-06,Income,D,Distance warning band,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-06,Income,D,Distance warning band,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-06,Income,D,Distance warning band,Warning Long,3/3,pass,scenario,synthetic,complete,1
+2025-06,Income,E,Multi-horizon context,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-06,Income,E,Multi-horizon context,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-06,Income,E,Multi-horizon context,Wait Sell,3/3,hold,scenario,synthetic,complete,1
+2025-07,Defensive,A,Short-cycle structure,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-07,Defensive,A,Short-cycle structure,Sell,1/3,pass,scenario,synthetic,complete,1
+2025-07,Defensive,A,Short-cycle structure,Wait Sell,2/3,hold,scenario,synthetic,complete,1
+2025-07,Defensive,B,Fast confirmation,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-07,Defensive,B,Fast confirmation,Wait Sell,1/3,fail,scenario,synthetic,complete,1
+2025-07,Defensive,B,Fast confirmation,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-07,Defensive,C,Consistency cross-check,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-07,Defensive,C,Consistency cross-check,Sell,1/3,hold,scenario,synthetic,complete,1
+2025-07,Defensive,C,Consistency cross-check,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-07,Defensive,D,Distance warning band,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-07,Defensive,D,Distance warning band,Hold,1/3,fail,scenario,synthetic,complete,1
+2025-07,Defensive,D,Distance warning band,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-07,Defensive,E,Multi-horizon context,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-07,Defensive,E,Multi-horizon context,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-07,Defensive,E,Multi-horizon context,Warning Long,1/3,hold,scenario,synthetic,complete,1
+2025-07,Diversifier,A,Short-cycle structure,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-07,Diversifier,A,Short-cycle structure,Wait Buy,1/3,fail,scenario,synthetic,complete,1
+2025-07,Diversifier,A,Short-cycle structure,Wait Buy,2/3,hold,scenario,synthetic,complete,1
+2025-07,Diversifier,B,Fast confirmation,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-07,Diversifier,B,Fast confirmation,Buy,2/3,hold,scenario,synthetic,complete,1
+2025-07,Diversifier,B,Fast confirmation,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-07,Diversifier,C,Consistency cross-check,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-07,Diversifier,C,Consistency cross-check,Warning Long,3/3,hold,scenario,synthetic,complete,1
+2025-07,Diversifier,C,Consistency cross-check,Warning Long,3/3,pass,scenario,synthetic,complete,1
+2025-07,Diversifier,D,Distance warning band,Wait Buy,1/3,fail,scenario,synthetic,complete,1
+2025-07,Diversifier,D,Distance warning band,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-07,Diversifier,D,Distance warning band,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-07,Diversifier,E,Multi-horizon context,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-07,Diversifier,E,Multi-horizon context,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-07,Diversifier,E,Multi-horizon context,Warning Long,2/3,pass,scenario,synthetic,complete,1
+2025-07,Growth,A,Short-cycle structure,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-07,Growth,A,Short-cycle structure,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-07,Growth,A,Short-cycle structure,Wait Buy,1/3,fail,scenario,synthetic,complete,1
+2025-07,Growth,B,Fast confirmation,Hold,1/3,pass,scenario,synthetic,complete,2
+2025-07,Growth,B,Fast confirmation,Sell,1/3,hold,scenario,synthetic,complete,1
+2025-07,Growth,C,Consistency cross-check,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-07,Growth,C,Consistency cross-check,Wait Buy,3/3,pass,scenario,synthetic,complete,1
+2025-07,Growth,C,Consistency cross-check,Warning Long,1/3,fail,scenario,synthetic,complete,1
+2025-07,Growth,D,Distance warning band,Buy,3/3,pass,scenario,synthetic,complete,1
+2025-07,Growth,D,Distance warning band,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-07,Growth,D,Distance warning band,Wait Sell,1/3,fail,scenario,synthetic,complete,1
+2025-07,Growth,E,Multi-horizon context,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-07,Growth,E,Multi-horizon context,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-07,Growth,E,Multi-horizon context,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-07,Income,A,Short-cycle structure,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-07,Income,A,Short-cycle structure,Warning Long,1/3,hold,scenario,synthetic,complete,1
+2025-07,Income,A,Short-cycle structure,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-07,Income,B,Fast confirmation,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-07,Income,B,Fast confirmation,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-07,Income,B,Fast confirmation,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-07,Income,C,Consistency cross-check,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-07,Income,C,Consistency cross-check,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-07,Income,C,Consistency cross-check,Warning Long,2/3,pass,scenario,synthetic,complete,1
+2025-07,Income,D,Distance warning band,Hold,1/3,pass,scenario,synthetic,complete,2
+2025-07,Income,D,Distance warning band,Sell,1/3,pass,scenario,synthetic,complete,1
+2025-07,Income,E,Multi-horizon context,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-07,Income,E,Multi-horizon context,Wait Sell,1/3,pass,scenario,synthetic,complete,2
+2025-08,Defensive,A,Short-cycle structure,Warning Long,1/3,hold,scenario,synthetic,complete,1
+2025-08,Defensive,A,Short-cycle structure,Warning Long,2/3,pass,scenario,synthetic,complete,1
+2025-08,Defensive,A,Short-cycle structure,Warning Short,3/3,hold,scenario,synthetic,complete,1
+2025-08,Defensive,B,Fast confirmation,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-08,Defensive,B,Fast confirmation,Wait Buy,3/3,pass,scenario,synthetic,complete,1
+2025-08,Defensive,B,Fast confirmation,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-08,Defensive,C,Consistency cross-check,Hold,1/3,pass,scenario,synthetic,complete,2
+2025-08,Defensive,C,Consistency cross-check,Sell,1/3,fail,scenario,synthetic,complete,1
+2025-08,Defensive,D,Distance warning band,Sell,2/3,hold,scenario,synthetic,complete,1
+2025-08,Defensive,D,Distance warning band,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-08,Defensive,D,Distance warning band,Warning Long,2/3,pass,scenario,synthetic,complete,1
+2025-08,Defensive,E,Multi-horizon context,Buy,3/3,pass,scenario,synthetic,complete,1
+2025-08,Defensive,E,Multi-horizon context,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-08,Defensive,E,Multi-horizon context,Sell,1/3,pass,scenario,synthetic,complete,1
+2025-08,Diversifier,A,Short-cycle structure,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-08,Diversifier,A,Short-cycle structure,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-08,Diversifier,A,Short-cycle structure,Wait Sell,2/3,hold,scenario,synthetic,complete,1
+2025-08,Diversifier,B,Fast confirmation,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-08,Diversifier,B,Fast confirmation,Wait Buy,3/3,fail,scenario,synthetic,complete,1
+2025-08,Diversifier,B,Fast confirmation,Wait Sell,3/3,hold,scenario,synthetic,complete,1
+2025-08,Diversifier,C,Consistency cross-check,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-08,Diversifier,C,Consistency cross-check,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-08,Diversifier,C,Consistency cross-check,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-08,Diversifier,D,Distance warning band,Hold,2/3,fail,scenario,synthetic,complete,1
+2025-08,Diversifier,D,Distance warning band,Wait Buy,3/3,pass,scenario,synthetic,complete,1
+2025-08,Diversifier,D,Distance warning band,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-08,Diversifier,E,Multi-horizon context,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-08,Diversifier,E,Multi-horizon context,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-08,Diversifier,E,Multi-horizon context,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-08,Growth,A,Short-cycle structure,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-08,Growth,A,Short-cycle structure,Wait Buy,1/3,pass,scenario,synthetic,complete,2
+2025-08,Growth,B,Fast confirmation,Sell,1/3,fail,scenario,synthetic,complete,1
+2025-08,Growth,B,Fast confirmation,Sell,2/3,pass,scenario,synthetic,complete,1
+2025-08,Growth,B,Fast confirmation,Warning Long,2/3,pass,scenario,synthetic,complete,1
+2025-08,Growth,C,Consistency cross-check,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-08,Growth,C,Consistency cross-check,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-08,Growth,C,Consistency cross-check,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-08,Growth,D,Distance warning band,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-08,Growth,D,Distance warning band,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-08,Growth,D,Distance warning band,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-08,Growth,E,Multi-horizon context,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-08,Growth,E,Multi-horizon context,Wait Buy,2/3,fail,scenario,synthetic,complete,1
+2025-08,Growth,E,Multi-horizon context,Wait Buy,3/3,pass,scenario,synthetic,complete,1
+2025-08,Income,A,Short-cycle structure,Sell,1/3,fail,scenario,synthetic,complete,1
+2025-08,Income,A,Short-cycle structure,Wait Buy,2/3,hold,scenario,synthetic,complete,1
+2025-08,Income,A,Short-cycle structure,Warning Long,2/3,hold,scenario,synthetic,complete,1
+2025-08,Income,B,Fast confirmation,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-08,Income,B,Fast confirmation,Sell,1/3,pass,scenario,synthetic,complete,1
+2025-08,Income,B,Fast confirmation,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-08,Income,C,Consistency cross-check,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-08,Income,C,Consistency cross-check,Hold,3/3,fail,scenario,synthetic,complete,1
+2025-08,Income,C,Consistency cross-check,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-08,Income,D,Distance warning band,Hold,1/3,fail,scenario,synthetic,complete,1
+2025-08,Income,D,Distance warning band,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-08,Income,D,Distance warning band,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-08,Income,E,Multi-horizon context,Hold,3/3,pass,scenario,synthetic,complete,2
+2025-08,Income,E,Multi-horizon context,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-09,Defensive,A,Short-cycle structure,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-09,Defensive,A,Short-cycle structure,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-09,Defensive,A,Short-cycle structure,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-09,Defensive,B,Fast confirmation,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-09,Defensive,B,Fast confirmation,Warning Long,1/3,hold,scenario,synthetic,complete,1
+2025-09,Defensive,B,Fast confirmation,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-09,Defensive,C,Consistency cross-check,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-09,Defensive,C,Consistency cross-check,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-09,Defensive,C,Consistency cross-check,Wait Buy,3/3,pass,scenario,synthetic,complete,1
+2025-09,Defensive,D,Distance warning band,Buy,3/3,hold,scenario,synthetic,complete,1
+2025-09,Defensive,D,Distance warning band,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-09,Defensive,D,Distance warning band,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-09,Defensive,E,Multi-horizon context,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-09,Defensive,E,Multi-horizon context,Wait Buy,3/3,pass,scenario,synthetic,complete,1
+2025-09,Defensive,E,Multi-horizon context,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-09,Diversifier,A,Short-cycle structure,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-09,Diversifier,A,Short-cycle structure,Hold,2/3,fail,scenario,synthetic,complete,1
+2025-09,Diversifier,A,Short-cycle structure,Wait Sell,1/3,hold,scenario,synthetic,complete,1
+2025-09,Diversifier,B,Fast confirmation,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-09,Diversifier,B,Fast confirmation,Wait Sell,2/3,fail,scenario,synthetic,complete,1
+2025-09,Diversifier,B,Fast confirmation,Warning Long,1/3,hold,scenario,synthetic,complete,1
+2025-09,Diversifier,C,Consistency cross-check,Warning Long,3/3,hold,scenario,synthetic,complete,1
+2025-09,Diversifier,C,Consistency cross-check,Warning Short,1/3,fail,scenario,synthetic,complete,1
+2025-09,Diversifier,C,Consistency cross-check,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-09,Diversifier,D,Distance warning band,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-09,Diversifier,D,Distance warning band,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-09,Diversifier,D,Distance warning band,Wait Buy,2/3,fail,scenario,synthetic,complete,1
+2025-09,Diversifier,E,Multi-horizon context,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-09,Diversifier,E,Multi-horizon context,Sell,2/3,pass,scenario,synthetic,complete,1
+2025-09,Diversifier,E,Multi-horizon context,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-09,Growth,A,Short-cycle structure,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-09,Growth,A,Short-cycle structure,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-09,Growth,A,Short-cycle structure,Warning Long,2/3,pass,scenario,synthetic,complete,1
+2025-09,Growth,B,Fast confirmation,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-09,Growth,B,Fast confirmation,Sell,1/3,pass,scenario,synthetic,complete,1
+2025-09,Growth,B,Fast confirmation,Wait Sell,1/3,hold,scenario,synthetic,complete,1
+2025-09,Growth,C,Consistency cross-check,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-09,Growth,C,Consistency cross-check,Sell,3/3,pass,scenario,synthetic,complete,1
+2025-09,Growth,C,Consistency cross-check,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-09,Growth,D,Distance warning band,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-09,Growth,D,Distance warning band,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-09,Growth,D,Distance warning band,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-09,Growth,E,Multi-horizon context,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-09,Growth,E,Multi-horizon context,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-09,Growth,E,Multi-horizon context,Warning Short,3/3,pass,scenario,synthetic,complete,1
+2025-09,Income,A,Short-cycle structure,Buy,3/3,pass,scenario,synthetic,complete,1
+2025-09,Income,A,Short-cycle structure,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-09,Income,A,Short-cycle structure,Wait Buy,2/3,hold,scenario,synthetic,complete,1
+2025-09,Income,B,Fast confirmation,Wait Sell,1/3,pass,scenario,synthetic,complete,2
+2025-09,Income,B,Fast confirmation,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-09,Income,C,Consistency cross-check,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-09,Income,C,Consistency cross-check,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-09,Income,C,Consistency cross-check,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-09,Income,D,Distance warning band,Hold,3/3,hold,scenario,synthetic,complete,1
+2025-09,Income,D,Distance warning band,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-09,Income,D,Distance warning band,Warning Long,3/3,pass,scenario,synthetic,complete,1
+2025-09,Income,E,Multi-horizon context,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-09,Income,E,Multi-horizon context,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-09,Income,E,Multi-horizon context,Warning Short,1/3,hold,scenario,synthetic,complete,1
+2025-10,Defensive,A,Short-cycle structure,Hold,3/3,fail,scenario,synthetic,complete,1
+2025-10,Defensive,A,Short-cycle structure,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-10,Defensive,A,Short-cycle structure,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-10,Defensive,B,Fast confirmation,Buy,1/3,hold,scenario,synthetic,complete,1
+2025-10,Defensive,B,Fast confirmation,Hold,2/3,fail,scenario,synthetic,complete,1
+2025-10,Defensive,B,Fast confirmation,Hold,3/3,hold,scenario,synthetic,complete,1
+2025-10,Defensive,C,Consistency cross-check,Buy,3/3,hold,scenario,synthetic,complete,1
+2025-10,Defensive,C,Consistency cross-check,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-10,Defensive,C,Consistency cross-check,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-10,Defensive,D,Distance warning band,Buy,2/3,fail,scenario,synthetic,complete,1
+2025-10,Defensive,D,Distance warning band,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-10,Defensive,D,Distance warning band,Warning Long,3/3,pass,scenario,synthetic,complete,1
+2025-10,Defensive,E,Multi-horizon context,Buy,3/3,hold,scenario,synthetic,complete,1
+2025-10,Defensive,E,Multi-horizon context,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-10,Defensive,E,Multi-horizon context,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-10,Diversifier,A,Short-cycle structure,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-10,Diversifier,A,Short-cycle structure,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-10,Diversifier,A,Short-cycle structure,Warning Long,2/3,pass,scenario,synthetic,complete,1
+2025-10,Diversifier,B,Fast confirmation,Hold,2/3,pass,scenario,synthetic,complete,2
+2025-10,Diversifier,B,Fast confirmation,Wait Sell,1/3,fail,scenario,synthetic,complete,1
+2025-10,Diversifier,C,Consistency cross-check,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-10,Diversifier,C,Consistency cross-check,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-10,Diversifier,C,Consistency cross-check,Warning Short,2/3,hold,scenario,synthetic,complete,1
+2025-10,Diversifier,D,Distance warning band,Hold,3/3,hold,scenario,synthetic,complete,1
+2025-10,Diversifier,D,Distance warning band,Warning Long,2/3,fail,scenario,synthetic,complete,1
+2025-10,Diversifier,D,Distance warning band,Warning Short,2/3,fail,scenario,synthetic,complete,1
+2025-10,Diversifier,E,Multi-horizon context,Buy,3/3,pass,scenario,synthetic,complete,1
+2025-10,Diversifier,E,Multi-horizon context,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-10,Diversifier,E,Multi-horizon context,Sell,1/3,pass,scenario,synthetic,complete,1
+2025-10,Growth,A,Short-cycle structure,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-10,Growth,A,Short-cycle structure,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-10,Growth,A,Short-cycle structure,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-10,Growth,B,Fast confirmation,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-10,Growth,B,Fast confirmation,Buy,3/3,pass,scenario,synthetic,complete,1
+2025-10,Growth,B,Fast confirmation,Warning Long,3/3,pass,scenario,synthetic,complete,1
+2025-10,Growth,C,Consistency cross-check,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-10,Growth,C,Consistency cross-check,Wait Sell,2/3,fail,scenario,synthetic,complete,1
+2025-10,Growth,C,Consistency cross-check,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-10,Growth,D,Distance warning band,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-10,Growth,D,Distance warning band,Wait Sell,2/3,hold,scenario,synthetic,complete,1
+2025-10,Growth,D,Distance warning band,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-10,Growth,E,Multi-horizon context,Hold,2/3,fail,scenario,synthetic,complete,1
+2025-10,Growth,E,Multi-horizon context,Sell,2/3,pass,scenario,synthetic,complete,1
+2025-10,Growth,E,Multi-horizon context,Wait Sell,1/3,hold,scenario,synthetic,complete,1
+2025-10,Income,A,Short-cycle structure,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-10,Income,A,Short-cycle structure,Warning Long,1/3,fail,scenario,synthetic,complete,1
+2025-10,Income,A,Short-cycle structure,Warning Long,1/3,hold,scenario,synthetic,complete,1
+2025-10,Income,B,Fast confirmation,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-10,Income,B,Fast confirmation,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-10,Income,B,Fast confirmation,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-10,Income,C,Consistency cross-check,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-10,Income,C,Consistency cross-check,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-10,Income,C,Consistency cross-check,Warning Short,1/3,fail,scenario,synthetic,complete,1
+2025-10,Income,D,Distance warning band,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-10,Income,D,Distance warning band,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-10,Income,D,Distance warning band,Warning Long,2/3,pass,scenario,synthetic,complete,1
+2025-10,Income,E,Multi-horizon context,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-10,Income,E,Multi-horizon context,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-10,Income,E,Multi-horizon context,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-11,Defensive,A,Short-cycle structure,Sell,1/3,hold,scenario,synthetic,complete,1
+2025-11,Defensive,A,Short-cycle structure,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-11,Defensive,A,Short-cycle structure,Warning Long,1/3,hold,scenario,synthetic,complete,1
+2025-11,Defensive,B,Fast confirmation,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-11,Defensive,B,Fast confirmation,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-11,Defensive,B,Fast confirmation,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-11,Defensive,C,Consistency cross-check,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-11,Defensive,C,Consistency cross-check,Wait Sell,2/3,hold,scenario,synthetic,complete,1
+2025-11,Defensive,C,Consistency cross-check,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-11,Defensive,D,Distance warning band,Hold,3/3,hold,scenario,synthetic,complete,1
+2025-11,Defensive,D,Distance warning band,Sell,2/3,pass,scenario,synthetic,complete,1
+2025-11,Defensive,D,Distance warning band,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-11,Defensive,E,Multi-horizon context,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-11,Defensive,E,Multi-horizon context,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-11,Defensive,E,Multi-horizon context,Warning Long,1/3,hold,scenario,synthetic,complete,1
+2025-11,Diversifier,A,Short-cycle structure,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-11,Diversifier,A,Short-cycle structure,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-11,Diversifier,A,Short-cycle structure,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-11,Diversifier,B,Fast confirmation,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-11,Diversifier,B,Fast confirmation,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-11,Diversifier,B,Fast confirmation,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-11,Diversifier,C,Consistency cross-check,Hold,3/3,hold,scenario,synthetic,complete,1
+2025-11,Diversifier,C,Consistency cross-check,Sell,3/3,pass,scenario,synthetic,complete,1
+2025-11,Diversifier,C,Consistency cross-check,Warning Short,3/3,pass,scenario,synthetic,complete,1
+2025-11,Diversifier,D,Distance warning band,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-11,Diversifier,D,Distance warning band,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-11,Diversifier,D,Distance warning band,Warning Short,1/3,hold,scenario,synthetic,complete,1
+2025-11,Diversifier,E,Multi-horizon context,Buy,3/3,pass,scenario,synthetic,complete,1
+2025-11,Diversifier,E,Multi-horizon context,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-11,Diversifier,E,Multi-horizon context,Wait Sell,2/3,hold,scenario,synthetic,complete,1
+2025-11,Growth,A,Short-cycle structure,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-11,Growth,A,Short-cycle structure,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-11,Growth,A,Short-cycle structure,Warning Short,1/3,hold,scenario,synthetic,complete,1
+2025-11,Growth,B,Fast confirmation,Hold,2/3,fail,scenario,synthetic,complete,1
+2025-11,Growth,B,Fast confirmation,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-11,Growth,B,Fast confirmation,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-11,Growth,C,Consistency cross-check,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-11,Growth,C,Consistency cross-check,Sell,3/3,pass,scenario,synthetic,complete,1
+2025-11,Growth,C,Consistency cross-check,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-11,Growth,D,Distance warning band,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-11,Growth,D,Distance warning band,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-11,Growth,D,Distance warning band,Wait Sell,1/3,hold,scenario,synthetic,complete,1
+2025-11,Growth,E,Multi-horizon context,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-11,Growth,E,Multi-horizon context,Wait Sell,1/3,hold,scenario,synthetic,complete,1
+2025-11,Growth,E,Multi-horizon context,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-11,Income,A,Short-cycle structure,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-11,Income,A,Short-cycle structure,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-11,Income,A,Short-cycle structure,Sell,1/3,hold,scenario,synthetic,complete,1
+2025-11,Income,B,Fast confirmation,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-11,Income,B,Fast confirmation,Wait Sell,3/3,hold,scenario,synthetic,complete,1
+2025-11,Income,B,Fast confirmation,Warning Long,1/3,hold,scenario,synthetic,complete,1
+2025-11,Income,C,Consistency cross-check,Hold,1/3,fail,scenario,synthetic,complete,1
+2025-11,Income,C,Consistency cross-check,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-11,Income,C,Consistency cross-check,Sell,1/3,pass,scenario,synthetic,complete,1
+2025-11,Income,D,Distance warning band,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-11,Income,D,Distance warning band,Wait Sell,1/3,hold,scenario,synthetic,complete,1
+2025-11,Income,D,Distance warning band,Wait Sell,3/3,hold,scenario,synthetic,complete,1
+2025-11,Income,E,Multi-horizon context,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-11,Income,E,Multi-horizon context,Buy,2/3,hold,scenario,synthetic,complete,1
+2025-11,Income,E,Multi-horizon context,Wait Buy,3/3,fail,scenario,synthetic,complete,1
+2025-12,Defensive,A,Short-cycle structure,Wait Sell,2/3,hold,scenario,synthetic,complete,1
+2025-12,Defensive,A,Short-cycle structure,Wait Sell,3/3,fail,scenario,synthetic,complete,1
+2025-12,Defensive,A,Short-cycle structure,Warning Short,1/3,hold,scenario,synthetic,complete,1
+2025-12,Defensive,B,Fast confirmation,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-12,Defensive,B,Fast confirmation,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-12,Defensive,B,Fast confirmation,Warning Short,3/3,pass,scenario,synthetic,complete,1
+2025-12,Defensive,C,Consistency cross-check,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-12,Defensive,C,Consistency cross-check,Sell,3/3,pass,scenario,synthetic,complete,1
+2025-12,Defensive,C,Consistency cross-check,Wait Buy,2/3,pass,scenario,synthetic,complete,1
+2025-12,Defensive,D,Distance warning band,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-12,Defensive,D,Distance warning band,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-12,Defensive,D,Distance warning band,Warning Short,3/3,pass,scenario,synthetic,complete,1
+2025-12,Defensive,E,Multi-horizon context,Hold,2/3,hold,scenario,synthetic,complete,1
+2025-12,Defensive,E,Multi-horizon context,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-12,Defensive,E,Multi-horizon context,Wait Sell,3/3,hold,scenario,synthetic,complete,1
+2025-12,Diversifier,A,Short-cycle structure,Hold,3/3,pass,scenario,synthetic,complete,1
+2025-12,Diversifier,A,Short-cycle structure,Wait Buy,1/3,pass,scenario,synthetic,complete,1
+2025-12,Diversifier,A,Short-cycle structure,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-12,Diversifier,B,Fast confirmation,Buy,1/3,pass,scenario,synthetic,complete,1
+2025-12,Diversifier,B,Fast confirmation,Buy,3/3,pass,scenario,synthetic,complete,1
+2025-12,Diversifier,B,Fast confirmation,Warning Long,1/3,hold,scenario,synthetic,complete,1
+2025-12,Diversifier,C,Consistency cross-check,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-12,Diversifier,C,Consistency cross-check,Sell,1/3,pass,scenario,synthetic,complete,1
+2025-12,Diversifier,C,Consistency cross-check,Wait Buy,3/3,hold,scenario,synthetic,complete,1
+2025-12,Diversifier,D,Distance warning band,Wait Sell,1/3,pass,scenario,synthetic,complete,1
+2025-12,Diversifier,D,Distance warning band,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-12,Diversifier,D,Distance warning band,Warning Short,1/3,pass,scenario,synthetic,complete,1
+2025-12,Diversifier,E,Multi-horizon context,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-12,Diversifier,E,Multi-horizon context,Wait Buy,3/3,fail,scenario,synthetic,complete,1
+2025-12,Diversifier,E,Multi-horizon context,Warning Long,2/3,hold,scenario,synthetic,complete,1
+2025-12,Growth,A,Short-cycle structure,Buy,1/3,hold,scenario,synthetic,complete,1
+2025-12,Growth,A,Short-cycle structure,Hold,1/3,pass,scenario,synthetic,complete,1
+2025-12,Growth,A,Short-cycle structure,Warning Long,2/3,pass,scenario,synthetic,complete,1
+2025-12,Growth,B,Fast confirmation,Wait Buy,3/3,pass,scenario,synthetic,complete,1
+2025-12,Growth,B,Fast confirmation,Wait Sell,2/3,hold,scenario,synthetic,complete,1
+2025-12,Growth,B,Fast confirmation,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-12,Growth,C,Consistency cross-check,Warning Long,3/3,pass,scenario,synthetic,complete,1
+2025-12,Growth,C,Consistency cross-check,Warning Short,2/3,pass,scenario,synthetic,complete,1
+2025-12,Growth,C,Consistency cross-check,Warning Short,3/3,pass,scenario,synthetic,complete,1
+2025-12,Growth,D,Distance warning band,Sell,1/3,pass,scenario,synthetic,complete,2
+2025-12,Growth,D,Distance warning band,Wait Sell,2/3,pass,scenario,synthetic,complete,1
+2025-12,Growth,E,Multi-horizon context,Hold,2/3,pass,scenario,synthetic,complete,1
+2025-12,Growth,E,Multi-horizon context,Hold,3/3,hold,scenario,synthetic,complete,1
+2025-12,Growth,E,Multi-horizon context,Warning Long,1/3,hold,scenario,synthetic,complete,1
+2025-12,Income,A,Short-cycle structure,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-12,Income,A,Short-cycle structure,Hold,2/3,fail,scenario,synthetic,complete,1
+2025-12,Income,A,Short-cycle structure,Warning Short,2/3,hold,scenario,synthetic,complete,1
+2025-12,Income,B,Fast confirmation,Hold,1/3,fail,scenario,synthetic,complete,1
+2025-12,Income,B,Fast confirmation,Wait Buy,1/3,hold,scenario,synthetic,complete,1
+2025-12,Income,B,Fast confirmation,Warning Short,1/3,fail,scenario,synthetic,complete,1
+2025-12,Income,C,Consistency cross-check,Buy,3/3,fail,scenario,synthetic,complete,1
+2025-12,Income,C,Consistency cross-check,Buy,3/3,pass,scenario,synthetic,complete,1
+2025-12,Income,C,Consistency cross-check,Hold,1/3,hold,scenario,synthetic,complete,1
+2025-12,Income,D,Distance warning band,Buy,2/3,pass,scenario,synthetic,complete,1
+2025-12,Income,D,Distance warning band,Wait Sell,3/3,pass,scenario,synthetic,complete,1
+2025-12,Income,D,Distance warning band,Warning Long,2/3,fail,scenario,synthetic,complete,1
+2025-12,Income,E,Multi-horizon context,Sell,3/3,pass,scenario,synthetic,complete,1
+2025-12,Income,E,Multi-horizon context,Warning Long,1/3,pass,scenario,synthetic,complete,1
+2025-12,Income,E,Multi-horizon context,Warning Short,1/3,pass,scenario,synthetic,complete,1

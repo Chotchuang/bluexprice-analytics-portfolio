@@ -1,0 +1,8 @@
+stage_order,stage_name,business_question,input_category,output_action_or_check,public_or_private,evidence_class,status
+1,Frame the review question,What should a reviewer decide this period?,market-price series,decision label or monitoring item,public,synthetic,complete
+2,Validate data readiness,Is the period complete and trustworthy?,cleaned price history,quality pass or stop,public,synthetic,complete
+3,Score cue families A–E,Which public cue families are active?,family category scores,family activity map,public,synthetic,complete
+4,Apply review filters,Do conflicting families force a hold?,family activity map,filter_gate_result,public,synthetic,complete
+5,Assign decision label,"Buy, Sell, Wait, Hold, or Warning — at what intensity?",filtered family map,decision_label + intensity_band,public,synthetic,complete
+6,Aggregate for the period,How often did each label fire this month?,labeled observations,monthly decision counts,public,synthetic,complete
+7,Recommend and monitor,What should the next review check?,monthly decision counts,monitoring checklist,public,synthetic,complete

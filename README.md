@@ -32,15 +32,17 @@ quality before turning a research signal into a portfolio recommendation?
 ## Public analytical pipeline
 
 ```text
-Demo market data
+Demo / synthetic market-price data
     -> data-quality checks
     -> exploratory analysis
-    -> mock market-price signals
-    -> portfolio allocation rules
-    -> execution-cost simulation
-    -> risk and performance evaluation
-    -> decision-ready report
+    -> cue families A–E (public nicknames only)
+    -> review filters (pass / hold / fail)
+    -> decision labels (Buy / Sell / Wait / Hold / Warning) + intensity
+    -> portfolio risk monitoring
+    -> recommendation and next review
 ```
+
+Private research formulas stay in Quant and are not copied here.
 
 ## Current public output
 
@@ -50,6 +52,19 @@ Demo market data
 
 All current outputs use demo inputs or mock strategies. They are not evidence
 of live investment performance.
+
+## Case study
+
+The local [case study](CASE_STUDY.md) leads with the **decision
+pipeline** (cue families A–E → filters/gates → Buy/Sell/Wait/Hold/Warning
+labels), then portfolio risk, quality, and an optional rejected model. Open the
+local HTML review:
+
+[`reports/decision-review/decision-dashboard.html`](reports/decision-review/decision-dashboard.html)
+
+Aggregate CSVs: [`data/tableau_exports/`](data/tableau_exports/).
+
+This local material is separate from the portfolio website and Tableau Public.
 
 ## SQL analysis
 
@@ -90,8 +105,9 @@ interprets the results, and controls what is suitable for public disclosure.
 
 ## Roadmap
 
-1. Publish sanitized Tableau-ready summary tables and a Tableau Public dashboard.
-2. Connect the final case study to the portfolio website.
+1. Build and review the Tableau Public dashboard from sanitized summary tables.
+2. Finalize the case study after dashboard QA.
+3. Connect the approved case study to the portfolio website.
 
 ## Limitations
 

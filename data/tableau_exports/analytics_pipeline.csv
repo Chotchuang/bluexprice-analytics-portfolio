@@ -1,0 +1,11 @@
+stage_order,pipeline_stage,business_question,input_category,analytical_method,output_category,validation_check,decision_use,status,public_or_private
+1,Business Problem,What portfolio decision needs support?,decision brief,scope definition,business question,Decision and audience are explicit,Align analysis with a decision,complete,public
+2,Plan and Scope,"Which period, grain, and comparisons are valid?",analysis plan,scope and metric mapping,analysis plan,Grain and metric definitions are documented,Prevent unfocused analysis,complete,public
+3,Data Collection,Is the required public-safe evidence available?,synthetic observations,source profiling,source inventory,Evidence class and freshness are present,Select suitable inputs,complete,public
+4,Data Cleaning and Validation,Can the data be trusted for analysis?,synthetic observations,quality checks,quality summary,Blocker checks pass,Stop unreliable refreshes,complete,public
+5,Exploratory Data Analysis,"What patterns, ranges, and exceptions exist?",validated aggregates,descriptive statistics and charts,EDA summary,Counts and denominators reconcile,Prioritize investigation,complete,public
+6,Decision Filter and Gate Review,Which market-price cues pass review gates before an action label?,validated aggregates,multi-family filter and gate outcomes,decision summary,"Pass, hold, and fail counts reconcile","Show how cues become Buy, Wait, Hold, or Warning labels",complete,public
+7,Analysis and Model Exploration,"What drives return and risk, and does a prototype beat baseline?",validated aggregates,contribution analysis and limited models,analysis tables,Time split and baseline are visible,"Evaluate evidence, not hype",complete,public
+8,Interpretation,What do the results mean in context?,analysis tables,comparison and caveat review,interpretation,Each claim has a metric and caveat,Avoid unsupported conclusions,complete,public
+9,Recommendation and Report,What should be reviewed or tested next?,prioritized insights,recommendation framing,decision report,"Action, owner, and limitation are clear",Support a practical next step,complete,public
+10,"Monitor, Update, and Iterate",What should start another review cycle?,approved metrics,cadence and exception monitoring,monitoring plan,Cadence and review rule are defined,Keep analysis useful over time,complete,public
